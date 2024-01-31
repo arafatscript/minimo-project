@@ -1,0 +1,140 @@
+:root{
+    --playfair: 'Playfair Display', serif;
+    --ubuntu: 'Ubuntu', sans-serif;
+
+}
+
+.navbar{
+    padding-block: 20px;
+}
+.nav-link{
+    font-size:14px;
+    font-weight: 400;
+    color:#626262;
+    font-family:var(--playfair);
+    text-transform:uppercase;
+}
+.navbar-collapse ul li{
+    text-align:center;
+}
+
+.nav-item:last-child{
+    padding-right: 0px !important;
+}
+.nav-link:last-child{
+    padding-right: 0px !important;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.hero-blog-wraper{
+    padding-inline: 85px;
+}
+.p-title{
+    font-size:14px ;
+    font-family: var(--ubuntu);
+    font-weight:400;
+    text-transform: uppercase;
+    color: #b4ad9e;
+    margin-block: 90px 20px;
+}
+.hero-blog-wraper h1{
+    font-size: 30px;
+    font-family: var(--playfair);
+    font-weight: 400;
+    color: #626262;
+    margin-block: 10px 30px;
+ 
+}
+.p-text{
+    font-size:16px ;
+    font-family: var(--playfair);
+    font-weight:400;
+    color: #626262;
+}
+.blogs-card-wraper{
+    padding-block: 90px;
+}
+.blogs-card-wraper .g-5{
+    --bs-gutter-x: 5rem;
+}
+.card-wraper{
+    padding-inline: 85px;
+}
+.card-body{
+    padding-left:0px ;
+}
+.card-p-title{
+    font-size: 16px;
+    font-family: var(--playfair);
+    font-weight: 400;
+    color:#b4ad9e;
+    text-transform: uppercase;
+}
+.card-title{
+    font-size: 30px;
+    font-family: var(--playfair);
+    font-weight: 400;
+    color:#626262;
+}
+.card-text{
+    font-size: 16px;
+    font-family: var(--playfair);
+    font-weight: 400;
+    color:#626262;
+}
+.newsletter{
+    padding-block: 100px;
+    background-color: #d1d0d0;
+}
+
+form h2{
+    font-size: 30px;
+    font-family: var(--playfair);
+    font-weight:400;
+    color:#333333;
+}
+.email-input{
+    max-width:400px;
+    position: relative;
+}
+.email-input input{
+    width: 100%;
+    font-size: 16px;
+    font-family: var(--playfair);
+    font-weight: 400;
+    border:none;
+    border-bottom: 1px solid #000000;
+    background-color: transparent;
+    
+}
+.email-input input:focus{
+    outline: none;
+}
+.send-icon{
+    width:40px;
+    position:absolute;
+    top: 0px;
+    right: 0px;
+}
+.btn-outline-dark {
+    border-radius: 0px;
+    padding: 15px 30px !important;
+    font-size: 16px;
+    font-family: var(--playfair);
+    font-weight: 400;
+    margin-block:80px ;
+    color:#626262;
+    transition: all 0.33s linear;
+}
+.btn-outline-dark:hover{
+    background-color: #626262;
+    color: #ffffff;
+
+}
+footer{
+    background-color: #d1d0d0;
+}
+footer .nav-link{
+    text-transform:none;
+}
